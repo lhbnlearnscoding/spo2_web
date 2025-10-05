@@ -1,0 +1,4 @@
+conda create -n spo2_web python=3.10 -y
+conda activate spo2_web
+pip install streamlit pandas matplotlib
+streamlit run app.py
